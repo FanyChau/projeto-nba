@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*
+#BF0B2C-vermelho escuro
+#BF0B3B-vermelho claro
+#1747A6-azul escuro
+#184A8C-azul claro
+*/
+body{
+    height: 100vh;
+            background-color: black;
+            background-image: url('fotos/IMG_20211221_093856.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+    /*background-color:var(--cor3);
+    font-family: var(--font-padrao);
+    font-weight: normal;*/
+}
+
+header{
+    /*background-color: var(--cor1);*/
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1{
+     color: white;
+     font-family: var(--font-destaque);
+     margin-bottom: 20px;
+     font-size: 3em;
+     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452) ;
+
+}
+
+header > p{
+    color: white;
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452) ;
+}
+
+main p {
+  margin: 15px 0px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 2em;
+}
+
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
+   
+    
+}
+
+nav{
+    /*background-color: var(--cor0);*/
+    padding: 10px;
+    /*box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.363);*/
+}
+nav > a{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    font-size: 1em;
+}
+
+nav > a:hover{
+   background-color: var(--cor4);
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+ 
+img{
+    width: 100%;
+}
+article > h1{
+    color: var(--cor4);
+}
+
+
+
+aside > h2{
+    color:var(--cor4);
+
+}
+
+
+
+
+
+
+footer{
+    background-color: var(--cor3);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+}
+
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none ;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+
+:root{
+    --cor0: #BF0B3B;
+    --cor1: #BF0B3B;
+    --cor3: #184A8C;
+    --cor4: #0d74fc;
+    --cor05: #D95F8C;
+
+    --font-padrao: Arial, Helvetica, Sans-serif;
+    --font-destaque: 'Bebas Neue', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
