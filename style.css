@@ -1,12 +1,8 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-/*
-#BF0B2C-vermelho escuro
-#BF0B3B-vermelho claro
-#1747A6-azul escuro
-#184A8C-azul claro
-*/
+
+
 body{
     height: 100vh;
             background-color: black;
@@ -15,13 +11,9 @@ body{
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
-    /*background-color:var(--cor3);
-    font-family: var(--font-padrao);
-    font-weight: normal;*/
 }
 
 header{
-    /*background-color: var(--cor1);*/
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -44,6 +36,7 @@ header > p{
     margin: auto;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452) ;
 }
 
@@ -62,9 +55,7 @@ main strong{
 }
 
 nav{
-    /*background-color: var(--cor0);*/
     padding: 10px;
-    /*box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.363);*/
 }
 nav > a{
     color: white;
